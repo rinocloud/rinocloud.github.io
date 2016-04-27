@@ -1,0 +1,81 @@
+
+body {
+    -webkit-font-smoothing: antialiased;
+    text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+    font-weight: 500;
+}
+
+.lead{
+  font-weight: 400;
+}
+
+/*Theme overrides*/
+@media (min-width: 992px){
+  .gl {
+      width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .block {
+     padding: 120px 0;
+  }
+  .block-short {
+     padding: 70px 0 !important;
+  }
+
+  .block-x-short {
+     padding: 50px 0 !important;
+  }
+}
+
+.block-fill-height {
+  height: 100vh;
+}
+
+.app-navbar-purple {
+  background-color: #813296;
+}
+
+.app-ribbon {
+  background-color: #813296;
+}
+
+
+.app-header {
+  background-color: #813296;
+}
+
+.table td {
+  max-width: 200px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.pull-quote img{
+  width: 100px;
+  height: 100px;
+}
+
+@media (min-width: 1200px){
+  .container-larger {
+    width: 1250px;
+  }
+
+  .container-xx-larger{
+    width: 100%;
+    max-width: 1400px;
+  }
+
+}
+
+.panel-body{
+  min-height: 250px;
+}
+
+.panel-footer{
+  min-height: 53px;
+}

@@ -1,0 +1,150 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="https://s3-eu-west-1.amazonaws.com/rinocloud/static/Rreverse.png">
+    <title>
+      Rinocloud
+    </title>
+
+      <link href='https://fonts.googleapis.com/css?family=Lora:400,400italic|Work+Sans:300,400,500,600' rel='stylesheet' type='text/css'>
+      <link href="assets/css/toolkit-startup.css" rel="stylesheet">
+      <link href="assets/css/application-startup.css" rel="stylesheet">
+      <link href="assets/css/katex.min.css" rel="stylesheet">
+      <link href="assets/css/overrides.css" rel="stylesheet">
+      <link href="assets/css/custom.css" rel="stylesheet">
+
+    <style>
+      /* note: this is a hack for ios iframe for bootstrap themes shopify page */
+      /* this chunk of css is not part of the toolkit :) */
+      /* …curses ios, etc… */
+      @media (max-width: 768px) and (-webkit-min-device-pixel-ratio: 2) {
+        body {
+          width: 1px;
+          min-width: 100%;
+          *width: 100%;
+        }
+        #stage {
+          height: 1px;
+          overflow: auto;
+          min-height: 100vh;
+          -webkit-overflow-scrolling: touch;
+        }
+      }
+    </style>
+  </head>
+
+
+<body>
+
+<div class="stage" id="stage">
+
+<div class="block block-fill-height app-header">
+  <div id="particles-js"></div>
+  <nav class="navbar navbar-transparent navbar-fixed-top navbar-padded app-navbar p-t-md">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="m-a" href="https://rinocloud.com">
+          <img style="width: 30px; height:auto;"src="https://s3-eu-west-1.amazonaws.com/rinocloud/static/Rsolid-white.svg"/>
+        </a>
+      </div>
+    </div>
+  </nav>
+
+  <div class="block-xs-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-11">
+          <h1 style="color: white;" class="block-title m-b-sm">Rinocloud integrations.</h1>
+          <p class="lead m-b-md text-muted">
+            All of our language integrations are open source, so you can add functionality, and re-distribute as you see fit. All our libraries are MIT License.
+          </p>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="panel">
+            <div class="panel-body">
+              <h3 class="lead m-y-0">Rinocloud for python</h3>
+              <hr>
+              <p>
+                A Python library for managing datasets. It make it easy to save all your data and parameters
+                and to organise your data locally. Optionally save to Rinocloud.
+              </p>
+            </div>
+            <div class="panel-footer"><p><a href="https://github.com/rinocloud/rinocloud-python">View on Github</a> <span class="pull-right">MIT License</span> </p></div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="panel">
+            <div class="panel-body">
+              <h3 class="lead m-y-0">Rinocloud for MATLAB</h3>
+              <hr>
+              <p>
+                A MATLAB library for saving experimental/simulation data to Rinocloud.
+              </p>
+            </div>
+            <div class="panel-footer"><p><a href="https://github.com/rinocloud/rinocloud-matlab">View on Github</a> <span class="pull-right">MIT License</span> </p></div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="panel">
+            <div class="panel-body">
+              <h3 class="lead m-y-0">Rinocloud for LabView</h3>
+              <hr>
+              <p>
+                A set of vi's for connecting Rinocloud to LabView. You can browse all your files from within LabView
+                and save all your experimental data and parameters to the Rinocloud servers.
+              </p>
+            </div>
+            <div class="panel-footer"><p><a href="https://github.com/rinocloud/rinocloud-labview">View on Github</a> <span class="pull-right">MIT License</span> </p></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4">
+          <div class="panel">
+            <div class="panel-body">
+              <h3 class="lead m-y-0">Rinocloud API explorer</h3>
+              <hr>
+              <p>
+                Explore the Rinocloud API so you can make your own data apps. You'll need your Rinocloud API key.
+              </p>
+            </div>
+            <div class="panel-footer"><p><a href="https://rinocloud.github.io/rinocloud-api-explorer/">Explore the API</a> <span class="pull-right">MIT License</span> </p></div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="panel">
+            <div class="panel-body">
+              <h3 class="lead m-y-0">More coming soon</h3>
+              <hr>
+              <p>
+                Send us an email at <span class="text-primary">eoin@rinocloud.com</span> to request an integration.
+              </p>
+            </div>
+            <div class="panel-footer"></div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+</div>
+</body>
+</html>
